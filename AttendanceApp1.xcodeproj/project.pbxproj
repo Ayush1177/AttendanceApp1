@@ -29,9 +29,22 @@
 		2AA3AE802D70EC420019BC18 /* AttendanceApp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttendanceApp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2A1E1C3E2D94FDB700F62B73 /* Exceptions for "AttendanceApp1" folder in "AttendanceApp1" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2AA3AE632D70EC400019BC18 /* AttendanceApp1 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2AA3AE662D70EC400019BC18 /* AttendanceApp1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2A1E1C3E2D94FDB700F62B73 /* Exceptions for "AttendanceApp1" folder in "AttendanceApp1" target */,
+			);
 			path = AttendanceApp1;
 			sourceTree = "<group>";
 		};
@@ -111,8 +124,6 @@
 				2AA3AE662D70EC400019BC18 /* AttendanceApp1 */,
 			);
 			name = AttendanceApp1;
-			packageProductDependencies = (
-			);
 			productName = AttendanceApp1;
 			productReference = 2AA3AE642D70EC400019BC18 /* AttendanceApp1.app */;
 			productType = "com.apple.product-type.application";
@@ -134,8 +145,6 @@
 				2AA3AE792D70EC420019BC18 /* AttendanceApp1Tests */,
 			);
 			name = AttendanceApp1Tests;
-			packageProductDependencies = (
-			);
 			productName = AttendanceApp1Tests;
 			productReference = 2AA3AE762D70EC420019BC18 /* AttendanceApp1Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,8 +166,6 @@
 				2AA3AE832D70EC420019BC18 /* AttendanceApp1UITests */,
 			);
 			name = AttendanceApp1UITests;
-			packageProductDependencies = (
-			);
 			productName = AttendanceApp1UITests;
 			productReference = 2AA3AE802D70EC420019BC18 /* AttendanceApp1UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -195,6 +202,9 @@
 			);
 			mainGroup = 2AA3AE5B2D70EC400019BC18;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2A1B1A2B2D9F0F01002C36AC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2AA3AE652D70EC400019BC18 /* Products */;
 			projectDirPath = "";
@@ -397,18 +407,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AttendanceApp1/Preview Content\"";
 				DEVELOPMENT_TEAM = 5R7UHCWG79;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AttendanceApp1/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "$(SRCROOT)/AttendanceApp1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Brunel-University.AttendanceApp1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -426,18 +443,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AttendanceApp1/Preview Content\"";
 				DEVELOPMENT_TEAM = 5R7UHCWG79;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AttendanceApp1/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "$(SRCROOT)/AttendanceApp1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Brunel-University.AttendanceApp1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -558,6 +582,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A1B1A2B2D9F0F01002C36AC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 2AA3AE5C2D70EC400019BC18 /* Project object */;
 }
